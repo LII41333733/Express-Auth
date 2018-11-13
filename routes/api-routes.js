@@ -7,10 +7,12 @@ require('dotenv').config();
 var db = require("../models");
 var passport = require("../config/passport");
 
+var apiKey = "983671853637322"
+
 cloudinary.config({
-  cloud_name: process.env.CLOUDINARY_NAME,
-  api_key: process.env.CLOUDINARY_API_KEY,
-  api_secret: process.env.CLOUDINARY_API_SECRET
+  cloud_name: process.env.marksphotos,
+  api_key: process.env.apiKey,
+  api_secret: process.env.iRHqULfK6n_rUOuBFoOY2LmtBWs
 });
 
 module.exports = function (app) {
