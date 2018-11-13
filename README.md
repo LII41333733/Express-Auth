@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # express-auth-formidable
 
 > A boilerplate for getting started with Node, Express, Sequelize, Formidable, PassportJS, and Cloudinary
@@ -15,3 +16,6 @@ CLOUDINARY_API_KEY=<APIKEY>
 CLOUDINARY_API_SECRET=<APISECRET>
 ```
 
+=======
+# Express-Auth
+>>>>>>> refs/remotes/origin/master
